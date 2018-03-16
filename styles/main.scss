@@ -1,0 +1,47 @@
+@import './bootswatch_united/_variables.scss';
+// @import './bootswatch_darkly/_variables.scss';
+// @import './bootswatch_cyborg/_variables.scss';
+// @import './bootswatch_superhero/_variables.scss';
+// @import './bootswatch_sketchy/_variables.scss';
+// @import './bootswatch_journal/_variables.scss';
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+@import './bootswatch_united/_bootswatch.scss';
+// @import './bootswatch_darkly/_bootswatch.scss';
+// @import './bootswatch_cyborg/_bootswatch.scss';
+// @import './bootswatch_superhero/_bootswatch.scss';
+// @import './bootswatch_sketchy/_bootswatch.scss';
+// @import './bootswatch_journal/_bootswatch.scss';
+
+body {background-color: rgb(245, 245, 245)}
+// .my-panel {background-color: white;}
+// .my-panel {background-color: darken($body-bg, 10%)} 
+.my-panel {background-color: lighten($body-bg, 10%)} 
+a, a:hover {text-decoration: none}
+ul {list-style-type: none; padding-left: 0}
+
+@import '~bootstrap/scss/bootstrap-grid.scss';
+@import '~ngx-toastr/toastr-bs4-alert';
+
+// .panel {
+//     background-color: white;
+//     -webkit-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+//     -moz-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+//     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+// }
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}   
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}   
+.inner {
+    margin-left: auto;
+    margin-right: auto; 
+    width: 400px; /*whatever width you want*/
+} 

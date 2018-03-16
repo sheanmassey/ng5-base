@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "noImplicitAny": false,
+        "removeComments": false,
+        "experimentalDecorators": true,
+        "outDir": "dist/",
+        "rootDir": "src",
+        "typeRoots": ["./node_modules/@types"],
+        "lib":  ["dom", "es7"]
+    },
+    "exclude": [
+        "dist",
+        "node_modules",
+        "**/*-aot.ts"
+    ]
+}
